@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
-:root{
+ @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap');
+ 
+ :root{
     --primary-color: #86efac;
 --dark-red: #991b1b;
---off-white: #cbd5e1;
+--off-white: #f1f5f9;
 }
 
 body{
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Lora', serif;
+    font-size: larger;
     margin: 0px;
 }
 
@@ -29,18 +30,23 @@ max-width: 600px;
 
 /* links */
 .link{
+box-sizing: border-box;
 text-decoration: none;
-padding: 0.5rem 1rem;
+/* border-radius:1rem; */
+/* margin-top: 1rem;
+margin-bottom: 1rem; */
 }
 
 .link-primary {
     background-color: var(--primary-color);
+    padding: 0.7rem;
     border-radius: 0.5rem;
     color: brown;
 }
 
 .link-secondary{
     color: brown;
+    padding: 0.7rem;
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
@@ -52,7 +58,7 @@ padding: 0.5rem 1rem;
 
 .list-item-inline{
     display: inline;
-    padding: 0rem 0.5rem;
+    padding: 1rem;
 }
 
 
@@ -69,11 +75,12 @@ padding: 0.5rem 1rem;
 
 .navigation .nav-brand{
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
 }
 
 .navigation .nav-pills{
     text-align: right;
+    
 }
 
 .navigation .link{
@@ -89,6 +96,8 @@ padding: 0.5rem 1rem;
 
 .hero{
     padding: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 .hero .hero-img{
@@ -100,7 +109,7 @@ padding: 0.5rem 1rem;
 .hero .hero-heading{
     padding-top: 1rem;
     text-align: center;
-    color: var(--dark-red);
+    color: var(--primary-color);
     }
 
     /* section */
@@ -127,12 +136,17 @@ padding: 0.5rem 1rem;
         color: brown;
         font-size: medium;
         border-radius: 0rem 1rem 0rem 0rem;
+        margin-top: 3rem;
     }
 
     .footer .link{
         color: brown;
     }
 
+    .footer .footer-header{
+      font-weight: bold ;
+      font-size: large;
+    }
     .footer ul{
         padding-inline-start: 0px;
     }
