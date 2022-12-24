@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif; 
+    margin: 0px;
 }
 
 hr{
@@ -63,7 +64,7 @@ padding: 0.5rem 1rem;
     padding: 1rem;
     /* border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem; */
-    border-radius: 0rem 1rem 0rem 1rem;
+    border-radius: 0rem 0rem 0rem 1rem;
 }
 
 .navigation .nav-brand{
@@ -116,4 +117,22 @@ padding: 0.5rem 1rem;
     .ow{
         background-color: var(--off-white);
     }
-    
+
+    /* footer */
+
+    .footer{
+        background-color: var(--primary-color);
+        padding: 2rem;
+        text-align: center;
+        color: brown;
+        font-size: medium;
+        border-radius: 0rem 1rem 0rem 0rem;
+    }
+
+    .footer .link{
+        color: brown;
+    }
+
+    .footer ul{
+        padding-inline-start: 0px;
+    }
